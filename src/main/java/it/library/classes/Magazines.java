@@ -38,4 +38,14 @@ public class Magazines extends Library {
     //TOSTRING
 
 
+    @Override
+    public String toString() {
+        return "Magazines{" +
+                "periodicity=" + periodicity +
+                ", isbnCode='" + isbnCode + '\'' +
+                ", title='" + title + '\'' +
+                ", year=" + year +
+                ", pagesNumber=" + pagesNumber +
+                "} " + super.toString();
+    }
 }

@@ -50,6 +50,10 @@ public class Books extends Library {
         return "Books{" +
                 "author='" + author + '\'' +
                 ", genre='" + genre + '\'' +
-                "} " + super.toString();
+                ", isbnCode='" + isbnCode + '\'' +
+                ", title='" + title + '\'' +
+                ", year=" + year +
+                ", pagesNumber=" + pagesNumber +
+                "} ";
     }
 }

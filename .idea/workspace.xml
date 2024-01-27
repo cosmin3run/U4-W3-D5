@@ -4,23 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="00a5f5c6-8e52-427d-9add-0440292b50ab" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/library/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/library/classes/Archive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/library/classes/Books.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/library/classes/Loan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/library/classes/Magazines.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/library/classes/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/library/enums/Periodicity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/library/superclass/Library.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistance.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/it/library/ApplicationTest.java" afterDir="false" />
+    <list default="true" id="00a5f5c6-8e52-427d-9add-0440292b50ab" name="Changes" comment="create all classes, wip db">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/it/library/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/library/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/it/library/classes/Archive.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/it/library/classes/Books.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/library/classes/Books.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/it/library/classes/Loan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/library/classes/Loan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/it/library/classes/Magazines.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/library/classes/Magazines.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/it/library/classes/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/library/classes/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/it/library/superclass/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/library/superclass/Library.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistance.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +61,19 @@
       <option name="presentableId" value="Default" />
       <updated>1706353943913</updated>
     </task>
+    <task id="LOCAL-00001" summary="create all classes, wip db">
+      <option name="closed" value="true" />
+      <created>1706368607164</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1706368607164</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="create all classes, wip db" />
+    <option name="LAST_COMMIT_MESSAGE" value="create all classes, wip db" />
   </component>
 </project>

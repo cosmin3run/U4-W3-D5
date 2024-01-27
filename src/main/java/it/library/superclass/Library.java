@@ -14,10 +14,10 @@ import java.util.Set;
 public abstract class Library {
     @Id
     @Column(name = "isbn_code", nullable = false)
-    private String isbnCode;
-    private String title;
-    private int year;
-    private int pagesNumber;
+    protected String isbnCode;
+     protected String title;
+    protected int year;
+    protected int pagesNumber;
 
     @OneToMany(mappedBy = "library")
     private Set<Loan> loans;
