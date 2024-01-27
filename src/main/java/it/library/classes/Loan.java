@@ -32,8 +32,8 @@ public class Loan {
     public Loan() {
     }
 
-    public Loan(int id, User user, Library loanedItem, LocalDate startLoan, LocalDate dueReturnDate) {
-        this.id = id;
+    public Loan(User user, Library loanedItem, LocalDate startLoan, LocalDate dueReturnDate) {
+
         this.user = user;
         this.library = loanedItem;
         this.startLoan = startLoan;
