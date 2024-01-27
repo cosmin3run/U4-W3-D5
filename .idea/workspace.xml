@@ -4,11 +4,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="00a5f5c6-8e52-427d-9add-0440292b50ab" name="Changes" comment="" />
+    <list default="true" id="00a5f5c6-8e52-427d-9add-0440292b50ab" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/it/library/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/it/library/classes/Archive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/it/library/classes/Books.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/it/library/classes/Loan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/it/library/classes/Magazines.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/it/library/classes/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/it/library/enums/Periodicity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/it/library/superclass/Library.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistance.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/it/library/ApplicationTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -25,9 +50,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Application.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true"
   }
