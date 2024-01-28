@@ -32,12 +32,13 @@ public class Loan {
     public Loan() {
     }
 
-    public Loan(User user, Library loanedItem, LocalDate startLoan, LocalDate dueReturnDate) {
+    public Loan(User user, Library loanedItem, LocalDate startLoan, LocalDate actualReturnDate) {
 
         this.user = user;
         this.library = loanedItem;
         this.startLoan = startLoan;
         this.dueReturnDate = startLoan.plusDays(30);
+        this.actualReturnDate = actualReturnDate;
     }
 
     //GETTERS AND SETTERS

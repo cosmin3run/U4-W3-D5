@@ -2,6 +2,7 @@ package it.library.classes;
 
 import javax.persistence.*;
 import java.time.LocalDate;
+import java.util.Date;
 import java.util.Set;
 
 @Entity
@@ -14,7 +15,7 @@ public class User {
     String name;
     @Column(nullable = false)
     String surname;
-    LocalDate dateOfBirth;
+    Date dateOfBirth;
 
     @OneToMany(mappedBy = "user")
     private Set<Loan> loans;
@@ -25,7 +26,7 @@ public class User {
     public User() {
     }
 
-    public User(String registrationNumber, String name, String surname, LocalDate dateOfBirth) {
+    public User(String registrationNumber, String name, String surname, Date dateOfBirth) {
         this.registrationNumber = registrationNumber;
         this.name = name;
         this.surname = surname;
@@ -58,11 +59,11 @@ public class User {
         this.surname = surname;
     }
 
-    public LocalDate getDateOfBirth() {
+    public Date getDateOfBirth() {
         return dateOfBirth;
     }
 
-    public void setDateOfBirth(LocalDate dateOfBirth) {
+    public void setDateOfBirth(Date dateOfBirth) {
         this.dateOfBirth = dateOfBirth;
     }
 
