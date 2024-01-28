@@ -1,9 +1,13 @@
 package it.library.DAO;
 
 import it.library.classes.Loan;
+import it.library.classes.User;
+import it.library.superclass.Library;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityTransaction;
+import javax.persistence.TypedQuery;
+import java.util.List;
 
 public class LoanDAO {
     private final EntityManager em;
@@ -43,6 +47,21 @@ public class LoanDAO {
         } else {
             System.out.println("Loan " + id + " didn't found");
         }
+    }
+
+    public List<Library> searchLoanByRegistrationNumber(String registrationNumber) {
+        TypedQuery<Library> query = em.createQuery("SELECT i FROM Library i JOIN i.loans l WHERE l.user.registrationNumber =:registrationNumber AND l.dueReturnDate IS NULL", Library.class);
+        query.setParameter("registrationNumber", registrationNumber);
+        List<Library> searchedItem = query.getResultList();
+        if (searchedItem.isEmpty()) {
+            System.out.println("There are no items loaned to this user");
+        } else {
+            System.out.println("Items loaned to the user: ");
+            for (Library item : searchedItem) {
+                System.out.println(item);
+            }
+        }
+        return searchedItem;
     }
 
 }

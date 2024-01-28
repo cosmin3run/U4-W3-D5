@@ -26,7 +26,9 @@ public class Loan {
 
     @Column(nullable = false)
     private LocalDate startLoan;
+    @Column(nullable = false)
     private LocalDate dueReturnDate;
+    @Column
     private LocalDate actualReturnDate;
 
     public Loan() {

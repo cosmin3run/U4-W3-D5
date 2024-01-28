@@ -58,8 +58,19 @@ public class Application {
         libraryDAO.deleteByIsbn("9791873214724");
 
         System.out.println("----- Search by ISBN -----");
-        libraryDAO.findByIsbnCode("9790960590291");
+        System.out.println(libraryDAO.findByIsbnCode("9790960590291"));
 
+        System.out.println("----- Search by publication year ------");
+        libraryDAO.searchItemByYear(2002);
+
+        System.out.println("----- Search by author -----");
+        libraryDAO.searchItemByAuthor("Errol Langosh");
+
+        System.out.println("----- Search by title or part of it -----");
+        libraryDAO.searchItemByTitle("The Last Temptation");
+
+        System.out.println("----- Search all loaned books to a user");
+        loanDAO.searchLoanByRegistrationNumber("543881688150314");
 
 
 
