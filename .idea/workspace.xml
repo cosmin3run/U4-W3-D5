@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="00a5f5c6-8e52-427d-9add-0440292b50ab" name="Changes" comment="Dao classes complete, saved data on db">
+    <list default="true" id="00a5f5c6-8e52-427d-9add-0440292b50ab" name="Changes" comment="end">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/library/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/library/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/library/DAO/LibraryDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/library/DAO/LibraryDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/it/library/DAO/LoanDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/library/DAO/LoanDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/library/classes/Loan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/library/classes/Loan.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +86,23 @@
       <option name="project" value="LOCAL" />
       <updated>1706446988504</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="last queries added">
+      <option name="closed" value="true" />
+      <created>1706450498011</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1706450498011</updated>
+    </task>
+    <task id="LOCAL-00006" summary="end">
+      <option name="closed" value="true" />
+      <created>1706451285950</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1706451285950</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -97,6 +110,8 @@
     <MESSAGE value="db created" />
     <MESSAGE value="Dao classes WIP" />
     <MESSAGE value="Dao classes complete, saved data on db" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dao classes complete, saved data on db" />
+    <MESSAGE value="last queries added" />
+    <MESSAGE value="end" />
+    <option name="LAST_COMMIT_MESSAGE" value="end" />
   </component>
 </project>

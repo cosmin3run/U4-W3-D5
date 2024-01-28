@@ -64,15 +64,15 @@ public class LoanDAO {
         return searchedItem;
     }
 
-    public List<Library> searchExpiredLoanByUser(String registrationNumber) {
-        TypedQuery<Library> query = em.createQuery("SELECT l FROM Loan l WHERE l.dueReturnDate<NOW() AND l.actualReturnDate IS NULL", Library.class);
-        query.setParameter("registrationNumber", registrationNumber);
-        List<Library> searchedItem = query.getResultList();
+    public List<Loan> searchExpiredLoans() {
+        TypedQuery<Loan> query = em.createQuery("SELECT l FROM Loan l WHERE l.dueReturnDate<NOW() AND l.actualReturnDate IS NULL", Loan.class);
+
+        List<Loan> searchedItem = query.getResultList();
         if (searchedItem.isEmpty()) {
-            System.out.println("There are no items loaned to this user");
+            System.out.println("There are no expired loans");
         } else {
-            System.out.println("Items loaned to the user: ");
-            for (Library item : searchedItem) {
+            System.out.println("Expired loans: ");
+            for (Loan item : searchedItem) {
                 System.out.println(item);
             }
         }

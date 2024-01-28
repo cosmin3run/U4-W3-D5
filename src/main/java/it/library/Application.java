@@ -93,11 +93,11 @@ public class Application {
         System.out.println("----- Search by title or part of it -----");
         libraryDAO.searchItemByTitle("The Last Temptation");
 
-        System.out.println("----- Search all loaned books to a user");
+        System.out.println("----- Search current loaned books to a user -----");
         loanDAO.searchLoanByRegistrationNumber("543881688150314");
 
-        System.out.println("----- Search all expired loans of a user");
-        loanDAO.searchExpiredLoanByUser("543881688150314");
+        System.out.println("----- Search all expired loans -----");
+        loanDAO.searchExpiredLoans();
 
 
     }
